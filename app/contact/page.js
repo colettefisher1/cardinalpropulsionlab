@@ -33,15 +33,15 @@ export default function ContactPage() {
         </article>
 
         <article className="contact-card">
-          <span className="eyebrow">CPL members</span>
+          <span className="eyebrow">CPL lab</span>
           <h2>Lab schedule</h2>
           <p>
-            Approved members can sign in with their Stanford email to see when teammates plan to be
-            working. Schedule editing is restricted to CPL administrators.
+            View the public CPL lab schedule to see when team members plan to be working.
           </p>
-          <Link className="button button-ghost" href="/schedule">Open member schedule</Link>
+          <Link className="button button-ghost" href="/schedule">Open lab schedule</Link>
         </article>
       </div>
     </section>
   );
 }
+
