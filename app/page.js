@@ -3,13 +3,6 @@ import VideoCard from '../components/VideoCard';
 
 const projects = [
   {
-    title: 'Hyperion A3 · Static Fire Test 2',
-    eyebrow: 'Static fire',
-    videoId: '0SWINn8Ib4Q',
-    description:
-      'A featured static-fire test from the Hyperion A3 development campaign, capturing the hardware, ignition sequence, and test environment in action.',
-  },
-  {
     title: 'Nitrous / IPA Liquid Biprop',
     eyebrow: 'Liquid bipropellant',
     videoId: 'UA2dw36aSKw',
@@ -31,7 +24,7 @@ export default function HomePage() {
       <section className="hero shell">
         <div className="hero-copy">
           <span className="eyebrow">Stanford University · Liquid Rocket Team</span>
-          <h1>We build rocket engines, then prove them on the test stand.</h1>
+          <h1>Cardinal Propulsion Lab</h1>
           <p className="hero-lede">
             Cardinal Propulsion Lab is a student-run engineering team focused on the design,
             manufacture, integration, and testing of liquid rocket propulsion systems.
